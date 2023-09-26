@@ -2520,6 +2520,9 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content {
   width: 26%;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
 }
 @media screen and (min-width: 900px) {
   #aside-content {
