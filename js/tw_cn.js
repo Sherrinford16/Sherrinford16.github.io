@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let str = ''
     const ss = JTPYStr()
     const tt = FTPYStr()
-    for (let i = 0; i < cc.length; i++) {
+    for (let i = 0; i < cc.length; lab_i++) {
       if (cc.charCodeAt(i) > 10000 && tt.indexOf(cc.charAt(i)) !== -1) {
         str += ss.charAt(tt.indexOf(cc.charAt(i)))
       } else str += cc.charAt(i)
